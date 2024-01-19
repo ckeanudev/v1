@@ -14,7 +14,7 @@ const AboutSection = () => {
         <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-6">
           <div className="flex flex-col w-full lg:w-[800px]">
             <p className="text-sm sm:text-base font-normal text-dark-3">
-              Back in 2021, when I was still a third-year college student, I
+              {`Back in 2021, when I was still a third-year college student, I
               decided to enhance my graphic design skills with Adobe Illustrator
               and Photoshop as my future career because designing is one of my
               hobbies and I want a job that will make me enjoy my life after
@@ -25,11 +25,11 @@ const AboutSection = () => {
               development. Fast-forward to today, I still do front-end
               development and graphic design as a hobby. But right now, I'm
               working as a front-end developer where I can fully utilize the
-              skills that I've learned from 2021 until now.
+              skills that I've learned from 2021 until now.`}
               <br />
               <br />
-              My main focus today is building and improving projects with great
-              user experiences and beautiful user interfaces for our clients at{" "}
+              {`My main focus today is building and improving projects with great
+              user experiences and beautiful user interfaces for our clients at `}
               <a
                 className="font-bold hover:bg-gradient-to-r from-[#0077b6] to-[#00b4d8] hover:bg-clip-text hover:text-transparent"
                 href="https://www.linkedin.com/company/aka-software-inc/"
@@ -37,9 +37,9 @@ const AboutSection = () => {
                 rel="noopener noreferrer">
                 AKA Software Inc.
               </a>{" "}
-              In my free time, I usually play video games, hanging out with my
+              {`In my free time, I usually play video games, hanging out with my
               girlfriend, play with our dogs or learn new tools for software
-              development.
+              development.`}
             </p>
           </div>
 
