@@ -5,6 +5,10 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ckeanu.vercel.app/"),
+  alternates: {
+    canonical: "/",
+  },
   title: "Ckeanu Richer Locson",
   description: "This is my personal website",
   keywords: [
