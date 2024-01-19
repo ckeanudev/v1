@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm";
 
 const ContactSection = ({}: any) => {
   return (
-    <section id="contactSection" className="pt-12 pb-24">
+    <section id="contactSection" className="pt-14 pb-24">
       <div className="max-w-[1000px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor">
           Contact Me

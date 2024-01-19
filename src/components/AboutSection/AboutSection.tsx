@@ -3,7 +3,7 @@ import { hobbies } from "@/constant";
 
 const AboutSection = () => {
   return (
-    <section id="aboutSection" className="pt-12 pb-24">
+    <section id="aboutSection" className="pt-14 pb-24">
       <div className="max-w-[1200px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor mb-1">
           About Me

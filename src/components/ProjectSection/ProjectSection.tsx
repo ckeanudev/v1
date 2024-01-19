@@ -1,12 +1,13 @@
 "use client";
 import { projects } from "@/constant";
 import FeaturedProjectComponent from "./FeaturedProjectComponent";
+import SomeProjectSection from "./SomeProjectSection";
 
 const ProjectSection = () => {
   const { featuredProjects, someProjects } = projects;
 
   return (
-    <section id="projectSection" className="min-h-[100vh] pt-12 pb-24">
+    <section id="projectSection" className="min-h-[100vh] pt-14 pb-24">
       <div className="max-w-[1300px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor">
           My Projects
@@ -17,6 +18,8 @@ const ProjectSection = () => {
             return <FeaturedProjectComponent project={project} key={i} />;
           })}
         </div>
+
+        <SomeProjectSection someProjects={someProjects} />
       </div>
     </section>
   );
