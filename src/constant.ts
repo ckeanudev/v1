@@ -69,7 +69,7 @@ export const projects = {
       title: "Showjects",
       description:
         "A platform where you can showcase your personal software development projects where other developers can see, comment, review your source code and give feedback about your projects to help you get better.",
-      img: `/images/FeaturedProjects/showjects.png`,
+      img: `/images/FeaturedProjects/FP2.png`,
       githubLink: "https://github.com/ckeanudev/showjects",
       liveLink: "https://showjects.vercel.app/",
       tools: [
@@ -88,7 +88,7 @@ export const projects = {
       title: "AniBrary",
       description:
         "A website containing collections of anime provided by Jikan API an open-source PHP & REST API for the most active online anime + manga community and database. This website has all the information of your favorite anime and characters.",
-      img: `/images/FeaturedProjects/aniBrary.png`,
+      img: `/images/FeaturedProjects/FP1.png`,
       githubLink: "https://github.com/ckeanudev/anibrary",
       liveLink: "https://anibrary.vercel.app/",
       tools: [

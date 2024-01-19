@@ -18,9 +18,6 @@ export const metadata: Metadata = {
     "Richer",
     "Locson",
   ],
-  // openGraph: {
-  //   images: "/opengraph-image.png",
-  // },
 };
 
 export default function RootLayout({
