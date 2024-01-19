@@ -5,8 +5,18 @@ import "./globals.css";
 const montserrat = Montserrat({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Ckeanu Richer locson",
+  title: "Ckeanu Richer Locson",
   description: "This is my personal website",
+  keywords: [
+    "Ckeanu Richer Locson",
+    "Ckeanu Portfolio",
+    "Ckeanu",
+    "Richer",
+    "Locson",
+  ],
+  openGraph: {
+    images: "/opengraph-image.png",
+  },
 };
 
 export default function RootLayout({
