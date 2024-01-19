@@ -44,7 +44,7 @@ const Footer = () => {
           </a>
         </div>
 
-        <p className="text-sm text-dark-3 font-medium">
+        <p className="text-xs sm:text-sm text-dark-3 font-medium">
           Designed and Coded by Me
         </p>
 
