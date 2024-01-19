@@ -1,5 +1,3 @@
-import Image from "next/image";
-import myPic from "../../public/images/myPic1.jpg";
 import { educationalAttainment } from "@/constant";
 import { hobbies } from "@/constant";
 

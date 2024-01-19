@@ -21,7 +21,7 @@ const HeroSection = () => {
           <div className="flex-1 flex justify-center items-end">
             <div className="h-[80px] flex-1 sm:flex-none sm:w-[380px] flex items-end justify-center p-4 gap-8 border-x borderDashed">
               <p className="flex-1 text-center font-semibold text-sm md:text-xl text-dark-3 relative">
-                👋🏻 Hello there
+                {`👋🏻 Hello there`}
               </p>
             </div>
           </div>
@@ -35,12 +35,12 @@ const HeroSection = () => {
           <div className="w-[20px] md:w-[80px]"></div>
           <div className="flex-1 bg-light-2 flex flex-col items-center p-7  border-x borderDashed relative z-10">
             <h1 className="flex-1 text-3xl md:text-4xl lg:text-5xl xl:text-7xl font-extrabold mb-3 lg:mb-5 text-center headerGradColor">
-              I'm Ckeanu Richer Locson
+              {`I'm Ckeanu Richer Locson`}
             </h1>
 
             <div className="px-6 py-1 rounded-full bg-gradient-to-r from-[#f72585]/30 to-[#4361ee]/30">
               <p className="text-center text-sm md:text-base lg:text-xl font-bold / bg-gradient-to-r from-[#f72585] to-[#4361ee] bg-clip-text text-transparent">
-                Front End Developer
+                {`Front End Developer`}
               </p>
             </div>
           </div>
@@ -51,8 +51,8 @@ const HeroSection = () => {
           <div className="w-[20px] md:w-[80px]"></div>
           <div className="flex-1 flex flex-col items-center p-6 border-x borderDashed bg-light-2 relative z-10">
             <p className="font-medium text-sm sm:text-base lg:text-lg mb-2 text-dark-4 text-center">
-              Passionate about crafting visually appealing and user-friendly web
-              apps with great user experiences.
+              {`Passionate about crafting visually appealing and user-friendly web
+              apps with great user experiences.`}
             </p>
           </div>
           <div className="w-[20px] md:w-[80px]"></div>
