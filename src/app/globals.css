@@ -7,7 +7,7 @@ html {
 }
 
 .headerGradColor {
-  @apply bg-gradient-to-t from-dark-1 to-dark-3 bg-clip-text text-transparent;
+  @apply bg-gradient-to-t from-dark-1 to-dark-2 sm:to-dark-3 bg-clip-text text-transparent;
 }
 
 .borderDashed {
