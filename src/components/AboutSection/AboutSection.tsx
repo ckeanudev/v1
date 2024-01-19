@@ -11,8 +11,8 @@ const AboutSection = () => {
           About Me
         </h2>
 
-        <div className="w-full mt-10 md:mt-14 flex flex-col md:flex-row-reverse gap-6">
-          <div className="flex flex-col w-full md:w-[800px]">
+        <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-6">
+          <div className="flex flex-col w-full lg:w-[800px]">
             <p className="text-sm sm:text-base font-normal text-dark-3">
               Back in 2021, when I was still a third-year college student, I
               decided to enhance my graphic design skills with Adobe Illustrator
@@ -43,7 +43,7 @@ const AboutSection = () => {
             </p>
           </div>
 
-          <div className="flex flex-col gap-8">
+          <div className="flex flex-col gap-8 ">
             <div className="">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
                 Educational Attainment
