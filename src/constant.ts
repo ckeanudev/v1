@@ -82,25 +82,6 @@ export const projects = {
         "Zod",
         "Uploadthing",
       ],
-      progress: "Coming soon",
-    },
-    {
-      title: "Showjects",
-      description:
-        "A platform where you can showcase your personal software development projects where other developers can see, comment, review your source code and give feedback about your projects to help you get better.",
-      img: `/images/FeaturedProjects/showjects.png`,
-      githubLink: "https://github.com/ckeanudev/showjects",
-      liveLink: "https://showjects.vercel.app/",
-      tools: [
-        "Next",
-        "TypeScript",
-        "Tailwind CSS",
-        "shadcn/ui",
-        "Clerk",
-        "MongoDB",
-        "Zod",
-        "Uploadthing",
-      ],
       progress: "Done",
     },
     {
