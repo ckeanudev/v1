@@ -39,14 +39,14 @@ const FeaturedProjectComponent = ({ project }: any) => {
             href={project.liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-dark-1 text-light-2 py-2 px-4 rounded-lg flex items-center justify-center font-semibold gap-2 text-xs sm:text-sm">
+            className="bg-dark-1 hover:bg-dark-2 text-light-2 py-2 px-4 rounded-lg flex items-center justify-center font-semibold gap-2 text-xs sm:text-sm">
             <FaEye size={18} /> View Site
           </a>
           <a
             href={project.liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="py-2 px-4 rounded-lg flex items-center justify-center font-semibold gap-2 bg-light-3 text-dark-2 text-xs sm:text-sm">
+            className="py-2 px-4 rounded-lg flex items-center justify-center font-semibold gap-2 bg-light-3 hover:bg-light-4 text-dark-2 text-xs sm:text-sm">
             <FaGithub size={18} /> Source Code
           </a>
         </div>

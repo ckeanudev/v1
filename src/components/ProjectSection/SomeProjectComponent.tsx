@@ -18,7 +18,7 @@ const SomeProjectComponent = ({ project }: any) => {
             href={project.liveLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-1.5 border bg-light-1 rounded-full">
+            className="p-1.5 border bg-light-1 hover:bg-light-3 rounded-full">
             <FaEye size={16} />
           </a>
 
@@ -26,7 +26,7 @@ const SomeProjectComponent = ({ project }: any) => {
             href={project.repoLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="p-1.5 border bg-light-1 rounded-full">
+            className="p-1.5 border bg-light-1 hover:bg-light-3 rounded-full">
             <FaGithub size={16} />
           </a>
         </div>

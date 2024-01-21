@@ -64,7 +64,7 @@ const ContactForm = ({}: any) => {
         placeholder="Message"
         className="px-3 py-2 rounded-lg border min-h-[100px] border-light-4 text-sm md:text-base"
       />
-      <button className="px-3 py-3 mt-3 rounded-lg bg-dark-1 text-light-2 font-medium text-sm md:text-base">
+      <button className="px-3 py-3 mt-3 rounded-lg bg-dark-1 hover:bg-dark-2 text-light-2 font-medium text-sm md:text-base">
         Send Message
       </button>
     </form>

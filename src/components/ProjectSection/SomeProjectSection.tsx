@@ -17,7 +17,7 @@ const SomeProjectSection = ({ someProjects }: any) => {
 
       <div className="w-full flex justify-center mt-14 font-medium">
         <button
-          className="text-dark-4"
+          className="text-dark-3 hover:text-dark-1"
           onClick={() => {
             if (projectCount === 8) {
               setProjectCount(someProjects.length);
