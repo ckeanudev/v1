@@ -1,5 +1,5 @@
 import { educationalAttainment } from "@/constant";
-import { hobbies, extraAbout } from "@/constant";
+import { hobbies, pastActivities } from "@/constant";
 
 const AboutSection = () => {
   return (
@@ -41,17 +41,24 @@ const AboutSection = () => {
             </p>
 
             <div className="mt-12">
-              {extraAbout.map((extra: any, i: number) => (
-                <div className="" key={i}>
-                  <p className="text-lg font-bold text-dark-2">{extra.title}</p>
+              <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
+                Past Activities
+              </h3>
+
+              <h4 className="font-bold text-dark-3 text-base sm:text-lg mb-1">
+                Resource Speaker
+              </h4>
+
+              {pastActivities.resourceSpeaker.map((speaker: any, i: number) => (
+                <div className="mb-4" key={i}>
                   <p className="text-base font-semibold text-dark-3">
-                    Topic: {extra.topic}
+                    Topic: {speaker.topic}
                   </p>
                   <p className="text-dark-2 text-sm">
-                    {extra.during} at {extra.venue}
+                    {speaker.during} at {speaker.venue}
                   </p>
-                  <p className="text-sm mt-2 text-dark-3 font-medium">
-                    {extra.date}
+                  <p className="text-sm mt-2 text-dark-3 font-semibold">
+                    {speaker.date}
                   </p>
                 </div>
               ))}

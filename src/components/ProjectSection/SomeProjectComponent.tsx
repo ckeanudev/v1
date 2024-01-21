@@ -32,7 +32,7 @@ const SomeProjectComponent = ({ project }: any) => {
         </div>
       </div>
 
-      <div className="pt-2 px-1">
+      <div className="pt-2 pb-1 px-1">
         <h4 className="font-semibold text-dark-2 line-clamp-2">
           {project.name}
         </h4>
