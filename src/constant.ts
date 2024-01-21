@@ -102,6 +102,33 @@ export const projects = {
       progress: "Done",
     },
   ],
+  bigProjects: [
+    {
+      title: "Apprabic: Mobile Application",
+      purpose: "Thesis",
+      tools: ["Unity 3D", "C#", "Adobe Illustrator"],
+      description: `The mobile app helps children to learn Arabic letters and numbers, especially in writing, pronunciation, and arranging in order.`,
+      completeDescription: `I built a full-stack web-based grading system for a specific school here in Zamboanga City, Philippines. Where teachers/faculties manage the grades of the students, and students can see their grades by logging in to their accounts. I took this opportunity to explore more about Next since it provides additional structure, features, and optimizations for your React application.`,
+      year: "2023",
+    },
+    {
+      title: "Munta",
+      purpose: "Coding Bootcamp",
+      tools: ["Flutter", "Firebase"],
+      description: `We built this mobile app for our Capstone Project in DICT Cross-Platform Coding Bootcamp Using Flutter. After presenting the Capstone Project, we've won the "Best in User Interface (UI) and Design", and "Most Creative awards". This project inspired by a mobile app called "Maxim".`,
+      completeDescription: `We built this mobile app for our Capstone Project in DICT Cross-Platform Coding Bootcamp Using Flutter. My job here was to turn the design from Figma into a functional user interface while my team focused on the backend with Firebase. After presenting the Capstone Project, we've won the "Best in User Interface (UI) and Design", and "Most Creative awards". This project inspired by a mobile app called "Maxim".`,
+      year: "2022",
+    },
+    {
+      title: "Online Hotel Booking System",
+      purpose: "Software Engineering",
+      tools: ["React", "Node", "Express", "MySQL", "Axios", "Framer Motion"],
+      description:
+        "The system helps customers book or reserve a room online without going to the hotel.",
+      completeDescription: `I built a full-stack web-based online booking system for a specific hotel here in Zamboanga City, Philippines. The system helps customers book or reserve a room online without going to the hotel. I took this opportunity to learn React, Node, Express, and MySQL to explore and improve my skills for my future career. I built this project to comply our Software Engineering project in my Computer Science course.`,
+      year: "2022",
+    },
+  ],
   someProjects: [
     {
       name: "Easybank Landing Page",
