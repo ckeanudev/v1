@@ -36,6 +36,16 @@ const SomeProjectComponent = ({ project }: any) => {
         <h4 className="font-semibold text-dark-2 line-clamp-2">
           {project.name}
         </h4>
+
+        <div className="flex items-center gap-1 lex-wrap">
+          {project.tools.map((tool: string, j: number) => (
+            <p
+              className="text-xs bg-light-4 text-dark-3 py-1 px-2 font-semibold rounded-lg"
+              key={j}>
+              {tool}
+            </p>
+          ))}
+        </div>
       </div>
     </div>
   );
