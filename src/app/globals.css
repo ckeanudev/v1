@@ -2,6 +2,27 @@
 @tailwind components;
 @tailwind utilities;
 
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  /* background: #161a1d; */
+  @apply bg-light-5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  @apply bg-dark-4 rounded-full;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  @apply bg-dark-3;
+}
+
 html {
   scroll-behavior: smooth;
 }

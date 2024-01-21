@@ -19,10 +19,10 @@ const AboutSection = () => {
               college. But sometimes, graphic design can be boring especially
               when you finish designing because you cannot interact with it
               since it's just a design. That made me decide to look for a new
-              skill to learn that involves designing and I found front-end
-              development. Fast-forward to today, I still do front-end
+              skill to learn that involves designing and I found front end
+              development. Fast-forward to today, I still do front end
               development and graphic design as a hobby. But right now, I'm
-              working as a front-end developer where I can fully utilize the
+              working as a front end developer where I can fully utilize the
               skills that I've learned from 2021 until now.`}
               <br />
               <br />
@@ -36,7 +36,7 @@ const AboutSection = () => {
                 AKA Software Inc.
               </a>{" "}
               {`In my free time, I usually play video games, hanging out with my
-              girlfriend, play with our dogs or learn new tools for software
+              girlfriend, play with our dogs or learn new tools for front end
               development.`}
             </p>
           </div>
