@@ -1,5 +1,5 @@
 import { educationalAttainment } from "@/constant";
-import { hobbies } from "@/constant";
+import { hobbies, extraAbout } from "@/constant";
 
 const AboutSection = () => {
   return (
@@ -9,7 +9,7 @@ const AboutSection = () => {
           About Me
         </h2>
 
-        <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-6">
+        <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-10  lg:gap-6">
           <div className="flex flex-col w-full lg:w-[800px]">
             <p className="text-sm sm:text-base font-normal text-dark-3">
               {`Back in 2021, when I was still a third-year college student, I
@@ -39,6 +39,23 @@ const AboutSection = () => {
               girlfriend, play with our dogs or learn new tools for front end
               development.`}
             </p>
+
+            <div className="mt-12">
+              {extraAbout.map((extra: any, i: number) => (
+                <div className="">
+                  <p className="text-lg font-bold text-dark-2">{extra.title}</p>
+                  <p className="text-base font-semibold text-dark-3">
+                    Topic: {extra.topic}
+                  </p>
+                  <p className="text-dark-2 text-sm">
+                    {extra.during} at {extra.venue}
+                  </p>
+                  <p className="text-sm mt-2 text-dark-3 font-medium">
+                    {extra.date}
+                  </p>
+                </div>
+              ))}
+            </div>
           </div>
 
           <div className="flex flex-col gap-8 ">

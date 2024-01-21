@@ -38,6 +38,16 @@ export const hobbies = [
   "💪🏻 Exercising",
 ];
 
+export const extraAbout = [
+  {
+    title: `Resouce Speaker`,
+    topic: `Building Modern Web Applications with Next.js`,
+    during: `Google Devfest 2023 Zamboanga Peninsula`,
+    venue: `Convention Center, KCC Mall de Zamboanga, Zamboanga City`,
+    date: `December 9, 2023`,
+  },
+];
+
 export const experiences = [
   {
     job: "Front End Developer",
