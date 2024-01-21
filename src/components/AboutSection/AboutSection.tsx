@@ -42,7 +42,7 @@ const AboutSection = () => {
 
             <div className="mt-12">
               {extraAbout.map((extra: any, i: number) => (
-                <div className="">
+                <div className="" key={i}>
                   <p className="text-lg font-bold text-dark-2">{extra.title}</p>
                   <p className="text-base font-semibold text-dark-3">
                     Topic: {extra.topic}
