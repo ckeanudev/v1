@@ -38,24 +38,20 @@ export const hobbies = [
   "💪🏻 Exercising",
 ];
 
-export const pastActivities = {
-  resourceSpeaker: [
-    {
-      topic: `Building Modern Web Applications with Next.js`,
-      during: `Google Devfest 2023 Zamboanga Peninsula`,
-      venue: `Convention Center, KCC Mall de Zamboanga, Zamboanga City`,
-      date: `December 9, 2023`,
-    },
-  ],
-  bootCamp: [
-    {
-      topic: `Cross-Platform Coding Bootcamp using Flutter`,
-      during: `Google Devfest 2023 Zamboanga Peninsula`,
-      venue: `Convention Center, KCC Mall de Zamboanga, Zamboanga City`,
-      date: `August 15 - September 02, 2022`,
-    },
-  ],
-};
+export const pastActivities = [
+  {
+    role: `Resource Speaker`,
+    during: `Google Devfest 2023 Zamboanga Peninsula`,
+    venue: `Convention Center, KCC Mall de Zamboanga, Zamboanga City, Philippines`,
+    date: `December 9, 2023`,
+  },
+  {
+    role: `Coding Bootcamp Student`,
+    during: `Cross-Platform Coding Bootcamp using Flutter`,
+    venue: `Terra Cotta Hotel, Brgy. Tumaga, Zamboanga City, Philippines`,
+    date: `August 15 - September 02, 2022`,
+  },
+];
 
 export const experiences = [
   {

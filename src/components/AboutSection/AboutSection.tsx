@@ -45,20 +45,18 @@ const AboutSection = () => {
                 Past Activities
               </h3>
 
-              <h4 className="font-bold text-dark-3 text-base sm:text-lg mb-1">
-                Resource Speaker
-              </h4>
-
-              {pastActivities.resourceSpeaker.map((speaker: any, i: number) => (
+              {pastActivities.map((activity: any, i: number) => (
                 <div className="mb-4" key={i}>
+                  <h4 className="font-bold text-dark-3 text-base sm:text-lg">
+                    {activity.role}
+                  </h4>
+
                   <p className="text-base font-semibold text-dark-3">
-                    Topic: {speaker.topic}
+                    {activity.during}
                   </p>
-                  <p className="text-dark-2 text-sm">
-                    {speaker.during} at {speaker.venue}
-                  </p>
+                  <p className="text-dark-2 text-sm">{activity.venue}</p>
                   <p className="text-sm mt-2 text-dark-3 font-semibold">
-                    {speaker.date}
+                    {activity.date}
                   </p>
                 </div>
               ))}
