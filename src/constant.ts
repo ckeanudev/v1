@@ -64,7 +64,7 @@ export const experiences = [
     companyAddress:
       "JLC Building, Don Alfaro Street, Tetuan Zamboanga City, Philippines, 7000, Zamboanga City, Philippines",
     descripion:
-      "We deliver innovative, customized, and user-friendly website solutions that align perfectly with our clients goals and objectives while specializing in the creation and development of websites for businesses across various industries.",
+      "We deliver innovative, customized, and user-friendly website solutions that align perfectly with our client's goals and objectives while specializing in creating and developing websites for businesses across various industries.",
 
     timeline: "Sept 2023 - Now",
     useTools: [

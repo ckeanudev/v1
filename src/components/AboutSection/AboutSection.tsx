@@ -26,8 +26,8 @@ const AboutSection = () => {
               skills that I've learned from 2021 until now.`}
               <br />
               <br />
-              {`My main focus today is building and improving projects with great
-              user experiences and beautiful user interfaces for our clients at `}
+              {`My main focus today is building projects with great
+              UI/UX and improving frontend performance for our clients at `}
               <a
                 className="font-bold hover:bg-gradient-to-r from-[#0077b6] to-[#00b4d8] hover:bg-clip-text hover:text-transparent"
                 href="https://www.linkedin.com/company/aka-software-inc/"
@@ -36,7 +36,7 @@ const AboutSection = () => {
                 AKA Software Inc.
               </a>{" "}
               {`In my free time, I usually play video games, hanging out with my
-              girlfriend, play with our dogs or learn new tools for frontend
+              girlfriend, play with our dogs, build small projects or learn new tools for frontend
               development.`}
             </p>
 
