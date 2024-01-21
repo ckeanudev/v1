@@ -117,8 +117,8 @@ export const projects = {
       title: "Apprabic: Mobile Application",
       purpose: "Thesis",
       tools: ["Unity 3D", "C#", "Adobe Illustrator"],
-      description: `The mobile app helps children to learn Arabic letters and numbers, especially in writing, pronunciation, and arranging in order.`,
-      completeDescription: `I built a full-stack web-based grading system for a specific school here in Zamboanga City, Philippines. Where teachers/faculties manage the grades of the students, and students can see their grades by logging in to their accounts. I took this opportunity to explore more about Next since it provides additional structure, features, and optimizations for your React application.`,
+      description: `The mobile semi-game app helps children to learn Arabic letters and numbers, especially in writing, pronunciation, and arranging in order.`,
+      completeDescription: `I built a full-stack mobile semi-game application for our thesis in our Computer Science course. The mobile semi-game app helps children to learn Arabic letters and numbers, especially in writing, pronunciation, and arranging in order. I took this opportunity to learn Unity 3D since I wanted to build a video game ever since I started programming.`,
       year: "2023",
     },
     {
