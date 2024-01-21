@@ -59,7 +59,7 @@ export const pastActivities = {
 
 export const experiences = [
   {
-    job: "Front End Developer",
+    job: "Frontend Developer",
     company: "AKA Software Inc.",
     companyAddress:
       "JLC Building, Don Alfaro Street, Tetuan Zamboanga City, Philippines, 7000, Zamboanga City, Philippines",
