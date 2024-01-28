@@ -1,5 +1,5 @@
 import { educationalAttainment } from "@/constant";
-import { hobbies, pastActivities } from "@/constant";
+import { interests, pastActivities } from "@/constant";
 
 const AboutSection = () => {
   return (
@@ -98,11 +98,11 @@ const AboutSection = () => {
 
             <div className="w-full md:w-[400px] ">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
-                Hobbies
+                Interests
               </h3>
 
               <div className="flex gap-2 flex-wrap">
-                {hobbies.map((hobby: string, i: number) => (
+                {interests.map((hobby: string, i: number) => (
                   <p
                     className="text-xs px-1 py-0.5 bg-light-3 text-dark-2 font-medium rounded-md"
                     key={i}>

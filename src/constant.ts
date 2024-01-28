@@ -26,7 +26,7 @@ export const educationalAttainment = [
   },
 ];
 
-export const hobbies = [
+export const interests = [
   "👨🏻‍💻 Coding",
   "🎧 Listening to music",
   "🎨 Designing",
