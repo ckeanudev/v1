@@ -35,7 +35,7 @@ const AboutSection = () => {
                 rel="noopener noreferrer">
                 AKA Software Inc.
               </a>{" "}
-              {`In my free time, I usually play video games, hanging out with my
+              {`In my free time, I usually play video games, hang out with my
               girlfriend, play with our dogs, build small projects or learn new tools for frontend
               development.`}
             </p>
