@@ -64,14 +64,17 @@ export const experiences = [
 
     timeline: "Sept 2023 - Now",
     useTools: [
-      "React",
+      "React.js",
+      "Next.js",
       "Tailwind CSS",
       "SCSS",
       "TypeScript",
       "AG Grid",
       "Postman",
       "Prime React",
+      "shadcn/ui",
       "Redux",
+      "TanStack Query",
       "Visual Studio Code",
     ],
     startDate: "2023-09-04",
