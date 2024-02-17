@@ -43,7 +43,7 @@ const FeaturedProjectComponent = ({ project }: any) => {
             <FaEye size={18} /> View Site
           </a>
           <a
-            href={project.liveLink}
+            href={project.githubLink}
             target="_blank"
             rel="noopener noreferrer"
             className="py-2 px-4 rounded-lg flex items-center justify-center font-semibold gap-2 bg-light-3 hover:bg-light-4 text-dark-2 text-xs sm:text-sm">
