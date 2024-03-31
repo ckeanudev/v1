@@ -76,6 +76,7 @@ export const experiences = [
       "Redux",
       "TanStack Query",
       "Visual Studio Code",
+      "Figma"
     ],
     startDate: "2023-09-04",
   },
