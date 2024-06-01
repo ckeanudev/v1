@@ -70,28 +70,32 @@ const HeroSection = () => {
                 className="text-dark-2 hover:text-dark-1 relative"
                 href={links.github}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <FaGithub size={26} />
               </a>
               <a
                 className="text-dark-2 hover:text-dark-1 relative"
                 href={links.linkedin}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <FaLinkedin size={26} />
               </a>
               <a
                 className="text-dark-2 hover:text-dark-1 relative"
                 href={links.facebook}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <FaFacebook size={26} />
               </a>
               <a
                 className="text-dark-2 hover:text-dark-1 relative"
                 href={links.instagram}
                 target="_blank"
-                rel="noopener noreferrer">
+                rel="noopener noreferrer"
+              >
                 <FaInstagram size={26} />
               </a>
               {/* <a

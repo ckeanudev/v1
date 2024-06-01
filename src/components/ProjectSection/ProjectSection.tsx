@@ -13,12 +13,12 @@ const ProjectSection = () => {
           My Projects
         </h2>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full mt-10 md:mt-14 gap-2">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 w-full mt-10 md:mt-14 gap-3">
           {featuredProjects.map((project: any, i: number) => {
             return <FeaturedProjectComponent project={project} key={i} />;
           })}
 
-          <div className="h-full hidden lg:flex flex-col justify-between gap-2">
+          <div className="h-full hidden lg:flex flex-col justify-between gap-3">
             {bigProjects.map((project: any, i: number) => (
               <div className="border rounded-lg p-3" key={i}>
                 <p className="text-lg font-bold text-dark-2">{project.title}</p>
@@ -32,7 +32,8 @@ const ProjectSection = () => {
                   {project.tools.map((tool: any, j: number) => (
                     <p
                       className="text-xs bg-light-4 text-dark-3 py-1 px-2 font-semibold rounded-lg"
-                      key={j}>
+                      key={j}
+                    >
                       {tool}
                     </p>
                   ))}
@@ -42,7 +43,7 @@ const ProjectSection = () => {
           </div>
         </div>
 
-        <div className="mt-14 flex lg:hidden flex-col gap-2">
+        <div className="mt-14 flex lg:hidden flex-col gap-3">
           {bigProjects.map((project: any, i: number) => (
             <div className="border rounded-lg p-5" key={i}>
               <p className="text-lg font-bold text-dark-2">{project.title}</p>
@@ -58,7 +59,8 @@ const ProjectSection = () => {
                 {project.tools.map((tool: any, j: number) => (
                   <p
                     className="text-xs bg-light-4 text-dark-3 py-1 px-2 font-semibold rounded-lg"
-                    key={j}>
+                    key={j}
+                  >
                     {tool}
                   </p>
                 ))}

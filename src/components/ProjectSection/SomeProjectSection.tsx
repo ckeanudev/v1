@@ -7,7 +7,7 @@ const SomeProjectSection = ({ someProjects }: any) => {
 
   return (
     <>
-      <div className="w-full mt-14 lg:mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-2">
+      <div className="w-full mt-14 lg:mt-2 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 lg:gap-3">
         {someProjects.map((project: any, i: number) => {
           return projectCount > i ? (
             <SomeProjectComponent project={project} key={i} />
@@ -24,7 +24,8 @@ const SomeProjectSection = ({ someProjects }: any) => {
             } else {
               setProjectCount(8);
             }
-          }}>
+          }}
+        >
           {projectCount === 8 ? `See more` : `See less`}
         </button>
       </div>

@@ -6,12 +6,12 @@ const AboutSection = () => {
     <section id="aboutSection" className="pt-14 pb-24">
       <div className="max-w-[1200px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor mb-1">
-          About Me
+          {`About Me`}
         </h2>
 
         <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-10  lg:gap-6">
           <div className="flex flex-col w-full lg:w-[800px]">
-            <p className="text-sm sm:text-base font-normal text-dark-3">
+            <p className="text-sm sm:text-base font-normal text-dark-2">
               {`Back in 2021, when I was still a third-year college student, I
               decided to enhance my graphic design skills with Adobe Illustrator
               and Photoshop as my future career because designing is one of my
@@ -32,17 +32,18 @@ const AboutSection = () => {
                 className="font-bold hover:bg-gradient-to-r from-[#0077b6] to-[#00b4d8] hover:bg-clip-text hover:text-transparent"
                 href="https://www.linkedin.com/company/aka-software-inc/"
                 target="_blank"
-                rel="noopener noreferrer">
-                AKA Software Inc.
+                rel="noopener noreferrer"
+              >
+                {`AKA Software Inc.`}
               </a>{" "}
               {`In my free time, I usually play video games, hang out with my
               girlfriend, play with our dogs, build small projects or learn new tools for frontend
               development.`}
             </p>
 
-            <div className="mt-12">
+            <div className="mt-9">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
-                Past Activities
+                {`Past Activities`}
               </h3>
 
               {pastActivities.map((activity: any, i: number) => (
@@ -63,10 +64,10 @@ const AboutSection = () => {
             </div>
           </div>
 
-          <div className="flex flex-col gap-8 ">
+          <div className="flex flex-col gap-8">
             <div className="">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
-                Educational Attainment
+                {`Educational Attainment`}
               </h3>
 
               {educationalAttainment.map((edu: any, i: number) => (
@@ -78,7 +79,8 @@ const AboutSection = () => {
                     {edu.awards.map((award: any, j: number) => (
                       <p
                         className="text-[11px] px-1.5 font-semibold py-0.5 bg-light-3 rounded-md text-dark-3"
-                        key={j}>
+                        key={j}
+                      >
                         {award}
                       </p>
                     ))}
@@ -98,14 +100,15 @@ const AboutSection = () => {
 
             <div className="w-full md:w-[400px] ">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
-                Interests
+                {`Interests`}
               </h3>
 
               <div className="flex gap-2 flex-wrap">
                 {interests.map((hobby: string, i: number) => (
                   <p
                     className="text-xs px-1 py-0.5 bg-light-3 text-dark-2 font-medium rounded-md"
-                    key={i}>
+                    key={i}
+                  >
                     {hobby}
                   </p>
                 ))}
