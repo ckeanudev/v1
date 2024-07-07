@@ -52,13 +52,13 @@ const Navbar = () => {
           </div>
 
           <div className="flex items-center gap-3">
-            <a
+            {/* <a
               href="/pdf/Ckeanu Richer Q. Locson Frontend Developer RESUME.pdf"
               target="_blank"
               className="bg-dark-1 hover:bg-dark-2 text-light-2 py-1.5 px-3 rounded-lg flex items-center justify-center font-medium gap-1.5 text-xs sm:text-sm disableHighlight"
             >
               My Resume
-            </a>
+            </a> */}
 
             <button
               className={`rounded-lg flex md:hidden items-center justify-center transition-transform disableHighlight ${

@@ -55,6 +55,19 @@ export const pastActivities = [
 
 export const experiences = [
   {
+    job: "Computer Programmer III",
+    company: "DSWD FO9 - Zamboanga Peninsula",
+    companyAddress:
+      "JLC Building, Don Alfaro Street, Tetuan Zamboanga City, Philippines, 7000, Zamboanga City, Philippines",
+    descripion:
+      "The Computer Programmer III shall perform the functions of a Software Quality Engineer who shall be responsible for ensuring the quality, reliability, and performance of the digital solutions developed by the DSWD. This includes designing and executing comprehensive testing strategies, identifying, and addressing software issues, and collaborating with various stakeholders to enhance the overall quality of the software. The Software Quality Engineer plays a critical role in the organization's digital transformation efforts by ensuring that digital solutions meet the highest quality standards, ultimately benefitting millions of Filipinos and fostering a more resilient and connected society.",
+
+    timeline: "June 2024 - Now",
+    useTools: ["Laravel", "Tailwind CSS", "PHP", "Appsheet", "Wordpress"],
+    startDate: "2024-07-01",
+    endDate: null,
+  },
+  {
     job: "Frontend Developer",
     company: "AKA Software Inc.",
     companyAddress:
@@ -62,7 +75,7 @@ export const experiences = [
     descripion:
       "We deliver innovative, customized, and user-friendly website solutions that align perfectly with our client's goals and objectives while specializing in creating and developing websites for businesses across various industries.",
 
-    timeline: "Sept 2023 - Now",
+    timeline: "Sept 2023 - June 2024",
     useTools: [
       "React.js",
       "Next.js",
@@ -76,9 +89,10 @@ export const experiences = [
       "Redux",
       "TanStack Query",
       "Visual Studio Code",
-      "Figma"
+      "Figma",
     ],
     startDate: "2023-09-04",
+    endDate: "2024-06-28",
   },
 ];
 

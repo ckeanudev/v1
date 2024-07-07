@@ -3,7 +3,7 @@ import { interests, pastActivities } from "@/constant";
 
 const AboutSection = () => {
   return (
-    <section id="aboutSection" className="pt-14 pb-24">
+    <section id="aboutSection" className="pt-20 md:pt-14 pb-24">
       <div className="max-w-[1200px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor mb-1">
           {`About Me`}
@@ -12,6 +12,21 @@ const AboutSection = () => {
         <div className="w-full mt-10 md:mt-14 flex flex-col lg:flex-row-reverse gap-10  lg:gap-6">
           <div className="flex flex-col w-full lg:w-[800px]">
             <p className="text-sm sm:text-base font-normal text-dark-2">
+              {`I am a Computer Science graduate from Western Mindanao State University 
+              with a passion for coding, designing, and continually learning new technologies. 
+              My professional journey began at AKA Software Inc., where I honed my skills as a 
+              frontend developer and designer, becoming proficient in tools such as React.js, Tailwind CSS, 
+              Redux, Next.js, React Query, and Figma.`}
+              <br />
+              <br />
+              {` Currently, I work as a Computer Programmer III 
+              for the Department of Social Welfare and Development Region IX, where I continue to 
+              apply and expand my technical expertise and performing the functions of a 
+              Software Quality Engineer. In this role, I am responsible for ensuring the quality, 
+              reliability, and performance of the digital solutions developed by the DSWD.`}
+            </p>
+
+            <p className="hidden text-sm sm:text-base font-normal text-dark-2">
               {`Back in 2021, when I was still a third-year college student, I
               decided to enhance my graphic design skills with Adobe Illustrator
               and Photoshop as my future career because designing is one of my

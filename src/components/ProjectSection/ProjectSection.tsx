@@ -7,7 +7,7 @@ const ProjectSection = () => {
   const { featuredProjects, bigProjects, someProjects } = projects;
 
   return (
-    <section id="projectSection" className="min-h-[100vh] pt-14 pb-24">
+    <section id="projectSection" className="min-h-[100vh] pt-20 md:pt-14 pb-24">
       <div className="max-w-[1300px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor">
           My Projects

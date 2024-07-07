@@ -2,7 +2,7 @@ import { experiences } from "@/constant";
 
 const ExperienceSection = () => {
   return (
-    <section id="experienceSection" className="pt-14 pb-24">
+    <section id="experienceSection" className="pt-20 md:pt-14 pb-24">
       <div className="max-w-[1300px] mx-auto h-full p-4 md:p-8">
         <h2 className="text-center text-2xl md:text-3xl font-bold headerGradColor mb-2">
           My Experience
@@ -10,14 +10,25 @@ const ExperienceSection = () => {
 
         <div className="mt-10 md:mt-14 flex flex-col gap-6">
           {experiences.map((experience: any, i: number) => {
-            const setDate: any = new Date(experience.startDate);
-            const currentDate: any = new Date();
+            let months: any = 0;
 
-            const diffMilliseconds = currentDate - setDate;
+            const startDate: any = new Date(experience.startDate);
 
-            const months = Math.round(
-              diffMilliseconds / (1000 * 60 * 60 * 24 * 30.44)
-            );
+            if (experience.endDate) {
+              const endDate: any = new Date(experience.endDate);
+
+              const yearsDiff = endDate.getFullYear() - startDate.getFullYear();
+              const monthsDiff = endDate.getMonth() - startDate.getMonth();
+
+              months = yearsDiff * 12 + monthsDiff;
+            } else {
+              const currentDate: any = new Date();
+              const diffMilliseconds = currentDate - startDate;
+
+              months = Math.round(
+                diffMilliseconds / (1000 * 60 * 60 * 24 * 30.44)
+              );
+            }
 
             return (
               <div className=" border p-4 rounded-lg" key={i}>
@@ -38,14 +49,15 @@ const ExperienceSection = () => {
                   {experience.useTools.map((tool: string, j: number) => (
                     <p
                       className="text-xs bg-light-4 text-dark-3 py-1 px-2 font-semibold rounded-lg"
-                      key={j}>
+                      key={j}
+                    >
                       {tool}
                     </p>
                   ))}
                 </div>
 
                 <p className="text-sm font-semibold text-dark-3 mt-5">
-                  {`${months} months`} • {experience.timeline}
+                  {`${months + 1} months`} • {experience.timeline}
                 </p>
               </div>
             );

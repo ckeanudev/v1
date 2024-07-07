@@ -40,7 +40,7 @@ const HeroSection = () => {
 
             <div className="px-6 py-1 rounded-full bg-gradient-to-r from-[#f72585]/30 to-[#4361ee]/30">
               <p className="text-center text-sm md:text-base lg:text-xl font-bold / bg-gradient-to-r from-[#f72585] to-[#4361ee] bg-clip-text text-transparent">
-                {`Frontend Developer`}
+                {`Computer Programmer III`}
               </p>
             </div>
           </div>
