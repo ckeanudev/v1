@@ -59,10 +59,18 @@ export const experiences = [
     company: "DSWD FO9 - Zamboanga Peninsula",
     companyAddress:
       "JLC Building, Don Alfaro Street, Tetuan Zamboanga City, Philippines, 7000, Zamboanga City, Philippines",
-    descripion:
-      "The Computer Programmer III shall perform the functions of a Software Quality Engineer who shall be responsible for ensuring the quality, reliability, and performance of the digital solutions developed by the DSWD. This includes designing and executing comprehensive testing strategies, identifying, and addressing software issues, and collaborating with various stakeholders to enhance the overall quality of the software. The Software Quality Engineer plays a critical role in the organization's digital transformation efforts by ensuring that digital solutions meet the highest quality standards, ultimately benefitting millions of Filipinos and fostering a more resilient and connected society.",
+    descripion: `The Computer Programmer III shall perform the functions of a 
+      Full-stack Web Application Developer who shall be responsible for 
+      designing, developing, and maintaining web applications that support the 
+      organization's digital transformation initiatives. The role includes 
+      working with stakeholders, including business leaders, IT teams, 
+      and external partners, to ensure a seamless and user-friendly experience 
+      for beneficiaries. The Full-stack Web Application Developer will 
+      play a crucial role in transforming social services delivery in the 
+      Philippines by working on cutting-edge projects and collaborating with 
+      a dedicated team of experts.`,
 
-    timeline: "June 2024 - Now",
+    timeline: "July 2024 - Now",
     useTools: ["Laravel", "Tailwind CSS", "PHP", "Appsheet", "Wordpress"],
     startDate: "2024-07-01",
     endDate: null,

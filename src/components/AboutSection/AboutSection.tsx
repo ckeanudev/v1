@@ -22,8 +22,9 @@ const AboutSection = () => {
               {` Currently, I work as a Computer Programmer III 
               for the Department of Social Welfare and Development Region IX, where I continue to 
               apply and expand my technical expertise and performing the functions of a 
-              Software Quality Engineer. In this role, I am responsible for ensuring the quality, 
-              reliability, and performance of the digital solutions developed by the DSWD.`}
+              Fullstack Web App Developer. In this role, I am working with stakeholders, 
+              including business leaders, IT teams, and external partners, to ensure a 
+              seamless and user-friendly experience for beneficiaries.`}
             </p>
 
             <p className="hidden text-sm sm:text-base font-normal text-dark-2">
