@@ -33,13 +33,13 @@ const ExperienceSection = () => {
             return (
               <div className=" border p-4 rounded-lg" key={i}>
                 <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-0 sm:mb-1 flex items-center gap-2">
-                  {experience.job} <span className="hidden sm:block">•</span>
-                  <span className="hidden sm:block">{experience.company} </span>
+                  {experience.job}
+                  {/* <span className="hidden sm:block">{experience.company} </span> */}
                 </h3>
 
-                <p className="block sm:hidden mb-2 font-semibold text-dark-3">
+                <h2 className="font-semibold text-dark-3 mb-2">
                   {experience.company}
-                </p>
+                </h2>
 
                 <p className="text-dark-3 text-sm sm:text-base">
                   {experience.descripion}
@@ -57,7 +57,7 @@ const ExperienceSection = () => {
                 </div>
 
                 <p className="text-sm font-semibold text-dark-3 mt-5">
-                  {`${months + 1} months`} • {experience.timeline}
+                  {`${months} months`} • {experience.timeline}
                 </p>
               </div>
             );

@@ -22,9 +22,10 @@ const AboutSection = () => {
               {` Currently, I work as a Computer Programmer III 
               for the Department of Social Welfare and Development Region IX, where I continue to 
               apply and expand my technical expertise and performing the functions of a 
-              Fullstack Web App Developer. In this role, I am working with stakeholders, 
-              including business leaders, IT teams, and external partners, to ensure a 
-              seamless and user-friendly experience for beneficiaries.`}
+              Software Quality Engineer. In this role, I am responsible for ensuring the quality, 
+              reliability, and performance of the digital solutions developed by the DSWD. This includes 
+              designing and executing comprehensive testing strategies, identifying, and addressing 
+              software issues, and collaborating with various stakeholders to enhance the overall quality of the software.`}
             </p>
 
             <p className="hidden text-sm sm:text-base font-normal text-dark-2">
@@ -57,7 +58,7 @@ const AboutSection = () => {
               development.`}
             </p>
 
-            <div className="mt-9">
+            <div className="hidden mt-9">
               <h3 className="text-lg sm:text-xl font-bold text-dark-2 mb-5">
                 {`Past Activities`}
               </h3>

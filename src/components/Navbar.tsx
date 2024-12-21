@@ -20,7 +20,7 @@ const Navbar = () => {
               href="#heroSection"
               className="text-xl sm:text-2xl font-extrabold text-dark-2 mr-5 disableHighlight"
             >
-              CKN
+              Ck
             </a>
 
             <div className="hidden md:flex items-center gap-10">
